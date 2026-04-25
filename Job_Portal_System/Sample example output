@@ -1,0 +1,95 @@
+//////////////////////
+CONSOLE : 
+/////////////////////
+
+==================================================
+              JOB PORTAL SYSTEM
+==================================================
+Date & Time : 25-04-2026 02:48 pm
+==================================================
+1. Job Requirement
+2. Job Apply
+3. View Applicant Details
+4. Search Applicants by Job
+5. Exit
+Enter choice: 4
+--- JOB LIST ---
+1 - Java Developer
+2 - Web Developer
+3 - Data Analyst
+Enter Job ID to Search Applicants: 1
+======================================================================================
+ID     Name               Age    Phone        Mail ID                   Experience         
+======================================================================================
+3      Adhvaith           20     999448806    adhvaitha@gmail.com       Fresher            
+4      Avanth             23     9898878776   avanth@gmail.com          Fresher            
+======================================================================================
+==================================================
+              JOB PORTAL SYSTEM
+==================================================
+Date & Time : 25-04-2026 02:49 pm
+==================================================
+1. Job Requirement
+2. Job Apply
+3. View Applicant Details
+4. Search Applicants by Job
+5. Exit
+Enter choice: 3
+=================================================================================================
+ID     Name               Age    Phone        Mail ID                   Experience           Job           
+=================================================================================================
+2      Nila               22     9899786756   nila@gmail.com            Less Experience      Web Developer 
+3      Adhvaith           20     999448806    adhvaitha@gmail.com       Fresher              Java Developer
+4      Avanth             23     9898878776   avanth@gmail.com          Fresher              Java Developer
+=================================================================================================
+==================================================
+              JOB PORTAL SYSTEM
+==================================================
+Date & Time : 25-04-2026 02:49 pm
+==================================================
+1. Job Requirement
+2. Job Apply
+3. View Applicant Details
+4. Search Applicants by Job
+5. Exit
+Enter choice: 3
+=================================================================================================
+ID     Name               Age    Phone        Mail ID                   Experience           Job           
+=================================================================================================
+2      Nila               22     9899786756   nila@gmail.com            Less Experience      Web Developer 
+3      Adhvaith           20     999448806    adhvaitha@gmail.com       Fresher              Java Developer
+4      Avanth             23     9898878776   avanth@gmail.com          Fresher              Java Developer
+=================================================================================================
+==================================================
+              JOB PORTAL SYSTEM
+==================================================
+Date & Time : 25-04-2026 02:49 pm
+==================================================
+1. Job Requirement
+2. Job Apply
+3. View Applicant Details
+4. Search Applicants by Job
+5. Exit
+Enter choice:
+
+
+////////////////////
+DATABASE :
+///////////////////
+
+SQL> select * from jobs;
+
+        ID JOB_NAME               REQUIREMENT                     QUALIFICATION
+---------- -----------------  ------------------------------ -----------------------
+         1 Java Developer         Java, SQL                           B.Sc CS
+         2 Web Developer          HTML, CSS, JS                       BCA
+         3 Data Analyst           Excel, SQL                          B.Sc Maths
+
+SQL> select * from applicants;
+
+        ID APPLICANT_NAME     AGE      PHONE        ADDRESS      MAIL_ID                    
+---------- --------------------------------------------------   ----------------------------
+         4 Avanth             23     9898878776     Madurai      avanth@gmail.com           
+         2 Nila               22     9899786756     chennai      nila@gmail.com             
+         3 Adhvaith           20     999448806      Coimbatore   adhvaitha@gmail.com        
+

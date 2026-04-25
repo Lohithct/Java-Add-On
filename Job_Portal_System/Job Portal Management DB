@@ -1,0 +1,37 @@
+///////////////
+-- JOBS TABLE
+//////////////
+
+CREATE TABLE jobs (
+    id NUMBER PRIMARY KEY,
+    job_name VARCHAR2(50),
+    requirement VARCHAR2(100),
+    qualification VARCHAR2(50)
+);
+
+
+CREATE SEQUENCE job_seq START WITH 1 INCREMENT BY 1;
+
+
+INSERT INTO jobs VALUES (job_seq.NEXTVAL, 'Java Developer', 'Java, SQL', 'B.Sc CS');
+INSERT INTO jobs VALUES (job_seq.NEXTVAL, 'Web Developer', 'HTML, CSS, JS', 'BCA');
+INSERT INTO jobs VALUES (job_seq.NEXTVAL, 'Data Analyst', 'Excel, SQL', 'B.Sc Maths');
+
+
+/////////////////////
+-- APPLICANTS TABLE
+/////////////////////
+
+CREATE TABLE applicants (
+    id NUMBER PRIMARY KEY,
+    applicant_name VARCHAR2(50),
+    age NUMBER,
+    phone NUMBER(10),
+    address VARCHAR2(80),
+    mail_id VARCHAR2(50),
+    experience VARCHAR2(30),
+    job_applied NUMBER
+);
+
+
+CREATE SEQUENCE app_seq START WITH 1 INCREMENT BY 1;
